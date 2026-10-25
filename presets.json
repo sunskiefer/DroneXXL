@@ -1,0 +1,28 @@
+{
+ "presets": [
+  {
+   "name": "Pulsar",
+   "values": {
+    "prs": "Pulsar"
+   }
+  },
+  {
+   "name": "Solar 42",
+   "values": {
+    "prs": "Solar 42"
+   }
+  },
+  {
+   "name": "Cinematic Performance",
+   "values": {
+    "prs": "Cinematic Performance"
+   }
+  },
+  {
+   "name": "Meditations on Death",
+   "values": {
+    "prs": "Meditations on Death"
+   }
+  }
+ ]
+}

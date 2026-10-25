@@ -1,0 +1,13 @@
+{
+  "name": "DroneXXL",
+  "vendor": "L'Cronx",
+  "uid": "DrnX",
+  "version": 100,
+  "so": "dronexxl.so",
+  "params": "params.json",
+  "build": {"root": ".", "sources": ["src/engine.cc"], "cflags": ["-Isrc"], "libs": ["-lm", "-ldl", "-lpthread"]},
+  "layout": "build/layout.conf",
+  "title_font": "art/fonts/TitilliumWeb-SemiBold.ttf",
+  "defines": {"HAS_DISPLAY_REV": 1, "PARAM_TEXT_MAX": 64, "DISPLAY_REV_NO_UPDATE": 1},
+  "presets": "presets.json"
+}
